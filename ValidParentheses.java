@@ -12,7 +12,7 @@ public class ValidParentheses {
 
     /**
      * 一个栈匹配成对括号
-     * 时间O(N) 空间O(N)
+     * 时间O(n) 空间O(n)
      *
      * @param s
      * @return

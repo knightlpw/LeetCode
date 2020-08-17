@@ -9,7 +9,7 @@ public class RemoveDuplicatesFromSortedArray {
 
     /**
      * 快慢双指针法
-     * 时间O(N) 空间(1)
+     * 时间O(n) 空间(1)
      *
      * @param nums
      * @return

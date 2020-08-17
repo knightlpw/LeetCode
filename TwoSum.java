@@ -12,7 +12,7 @@ public class TwoSum {
 
     /**
      * 一遍哈希法
-     * 时间O(N) 空间O(N)
+     * 时间O(n) 空间O(n)
      * @param nums
      * @param target
      * @return

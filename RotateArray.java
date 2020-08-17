@@ -9,7 +9,7 @@ public class RotateArray {
 
     /**
      * 暴力法
-     * 时间O(KN) 空间O(1)
+     * 时间O(kn) 空间O(1)
      *
      * @param nums
      * @param k
@@ -29,7 +29,7 @@ public class RotateArray {
 
     /**
      * 暴力法2 更容易理解,稍微快一点
-     * 时间O(KN) 空间O(1)
+     * 时间O(kn) 空间O(1)
      *
      * @param nums
      * @param k
@@ -51,7 +51,7 @@ public class RotateArray {
 
     /**
      * 反转法
-     * 时间O(N) 空间O(1)
+     * 时间O(n) 空间O(1)
      *
      * @param nums
      * @param k
