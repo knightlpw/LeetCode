@@ -19,6 +19,7 @@ public class RemoveDuplicatesFromSortedArray {
             return 0;
         }
 
+        //j是慢指针 i是快指针
         int j = 0;
         for(int i = 1; i < nums.length; i++){
             if(nums[i] != nums[j]){

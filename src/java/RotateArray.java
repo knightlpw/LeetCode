@@ -36,15 +36,22 @@ public class RotateArray {
      */
     public void rotate2(int[] nums, int k) {
         int length = nums.length;
+        //得出真正要移动的次数
         k %= length;
 
         int pre;
         while (k > 0) {
+            //保存最后一位数字
             pre = nums[length - 1];
+
+            //从后往前依次交换
             for (int i = length - 1; i > 0; i--) {
                 nums[i] = nums[i - 1];
             }
+            //最后一位赋值到第一位
             nums[0] = pre;
+
+            //减少移动次数
             k--;
         }
     }
@@ -58,10 +65,15 @@ public class RotateArray {
      */
     public void rotate3(int[] nums, int k) {
         int length = nums.length;
+
+        //真正需要移动的次数
         k %= length;
         if (k > 0) {
+            //整体调换
             reverse(nums,0,length-1);
+            //前部调换
             reverse(nums,0,k-1);
+            //后部调换
             reverse(nums,k,length-1);
         }
     }
