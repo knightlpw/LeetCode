@@ -3,6 +3,7 @@
  * @author linpeiwen
  * @version 1.0  2020/8/31
  * @since 1.8
+ *
  * 删除字符串中的所有相邻重复项 https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
  */
 public class RemoveAllAdjacentDuplicatesInString {

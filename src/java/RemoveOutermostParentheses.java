@@ -2,6 +2,7 @@
  * @author linpeiwen
  * @version 1.0  2020/9/3
  * @since 1.8
+ *
  * 删除最外层的括号 https://leetcode-cn.com/problems/remove-outermost-parentheses/
  */
 public class RemoveOutermostParentheses {

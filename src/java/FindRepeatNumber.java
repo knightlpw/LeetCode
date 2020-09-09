@@ -2,6 +2,7 @@
  * @author linpeiwen
  * @version 1.0  2020/9/4
  * @since 1.8
+ *
  * 数组中重复的数字 https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
  */
 public class FindRepeatNumber {

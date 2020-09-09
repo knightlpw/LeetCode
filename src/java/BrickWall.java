@@ -6,6 +6,7 @@ import java.util.Map;
  * @author linpeiwen
  * @version 1.0  2020/9/3
  * @since 1.8
+ *
  * 砖墙 https://leetcode-cn.com/problems/brick-wall/
  */
 public class BrickWall {
