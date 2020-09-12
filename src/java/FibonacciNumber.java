@@ -57,17 +57,12 @@ public class FibonacciNumber {
 
         int res = 0;
 
-        // 跳过一次循环
-        N--;
-        while (N > 0) {
+        for (int i =2; i <= N; i++) {
             // 累加得到后一位
             res = first + second;
-
             // 进位 用res更新first和second
             first = second;
             second = res;
-
-            N--;
         }
 
         return res;
