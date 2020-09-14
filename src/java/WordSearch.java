@@ -7,8 +7,18 @@
  */
 public class WordSearch {
 
+
+    // 偏移量数组
     private int[][] offset = {{0, -1}, {-1, 0}, {0, 1}, {1, 0}};
 
+    /**
+     * 回溯法（深度优先遍历）
+     * 时间 O(nm*3^L) n m：矩阵的长宽 L：单词长度
+     * 空间 O(1)
+     * @param board
+     * @param word
+     * @return
+     */
     public boolean exist(char[][] board, String word) {
         char[] chars = word.toCharArray();
 
@@ -24,22 +34,21 @@ public class WordSearch {
     }
 
     private boolean exist(char[][] board, int y, int x, int index, char[] word) {
-
-
         // 返回true的唯一条件 已经遍历到word的最后，说明匹配到了字符串
         if (index == word.length) {
             return true;
         }
 
+        // 剪枝
         if (y < 0 || x < 0 || y == board.length || x == board[y].length) {
             return false;
         }
-
+        // 剪枝
         if (board[y][x] != word[index]) {
             return false;
         }
 
-        //board[y][x] == word[index] 后，标记走过的坐标
+        // board[y][x] == word[index] 后，标记走过的坐标
         // 异或操作改变原值
         board[y][x] ^= 256;
 
