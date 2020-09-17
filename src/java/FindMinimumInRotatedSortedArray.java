@@ -10,7 +10,7 @@ public class FindMinimumInRotatedSortedArray {
 
     /**
      * 二分法
-     * 时间 O(lgn) 空间 O(1)
+     * 时间 O(logn) 空间 O(1)
      * <p>
      * 旋转排序数组的最小值的位置是一个关键节点，最小值左边的数值都比right大，最小值右边的数值都比right小，
      * 由此不断取二分的结果，直到left=right，此节点则为最小值

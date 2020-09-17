@@ -11,7 +11,7 @@ public class MeetingRoom {
 
     /**
      * 排序比较
-     * 时间 O(nlg(n)) 排序
+     * 时间 O(nlog(n)) 排序
      * 空间 O(1)
      * <p>
      * 排序之后再比较时间边界是否交叉
